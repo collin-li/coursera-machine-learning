@@ -71,6 +71,7 @@ fprintf('Theta found by gradient descent: ');
 fprintf('%f %f \n', theta(1), theta(2));
 
 % Plot the linear fit
+plotData(X(:,2:end), y); % Re-build plot as user may close plot during pause
 hold on; % keep previous plot visible
 plot(X(:,2), X*theta, '-')
 legend('Training data', 'Linear regression')

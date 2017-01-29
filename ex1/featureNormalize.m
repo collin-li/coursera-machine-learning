@@ -7,6 +7,6 @@ function [X_norm, mu, sigma] = featureNormalize(X)
 
 mu = mean(X); % Average of each feature (1 x n)
 sigma = std(X); % Standard deviation of each feature (1 x n)
-X_norm = (X - mu) ./ sigma % Normalized version of X (m x n)
+X_norm = (X - mu) ./ sigma; % Normalized version of X (m x n)
 
 end
