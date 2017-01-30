@@ -28,7 +28,6 @@ num_labels = 10;          % 10 labels, from 1 to 10
 %% =========== Part 1: Loading and Visualizing Data =============
 %  We start the exercise by first loading and visualizing the dataset.
 %  You will be working with a dataset that contains handwritten digits.
-%
 
 % Load Training Data
 fprintf('Loading and Visualizing Data ...\n')
@@ -52,7 +51,6 @@ pause;
 %  regularized logistic regression implementation is vectorized. After
 %  that, you will implement one-vs-all classification for the handwritten
 %  digit dataset.
-%
 
 % Test case for lrCostFunction
 fprintf('\nTesting lrCostFunction()');

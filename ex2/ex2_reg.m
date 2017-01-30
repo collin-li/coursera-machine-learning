@@ -49,7 +49,6 @@ hold off;
 %  To do so, you introduce more features to use -- in particular, you add
 %  polynomial features to our data matrix (similar to polynomial
 %  regression).
-%
 
 % Add Polynomial Features
 
@@ -98,7 +97,6 @@ pause;
 %
 %  How does the decision boundary change when you vary lambda? How does
 %  the training set accuracy vary?
-%
 
 % Initialize fitting parameters
 initial_theta = zeros(size(X, 2), 1);

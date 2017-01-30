@@ -29,7 +29,6 @@ num_labels = 10;          % 10 labels, from 1 to 10
 %% =========== Part 1: Loading and Visualizing Data =============
 %  We start the exercise by first loading and visualizing the dataset. 
 %  You will be working with a dataset that contains handwritten digits.
-%
 
 % Load Training Data
 fprintf('Loading and Visualizing Data ...\n')
