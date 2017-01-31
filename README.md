@@ -11,4 +11,6 @@ There will be a folder for each exercise, with an accompanying PDF to provide fu
 * Exercise 1: Linear Regression
 * Exercise 2: Logistic Regression
 * Exercise 3: Multi-class Classification and Neural Networks
+* Exercise 4: Neutral Networks Learning
+* Exercise 5: Regularized Linear Regression and Bias vs. Variance
 * ...
