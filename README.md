@@ -14,4 +14,5 @@ There will be a folder for each exercise, with an accompanying PDF to provide fu
 * Exercise 4: Neutral Networks Learning
 * Exercise 5: Regularized Linear Regression and Bias vs. Variance
 * Exercise 6: Support Vector Machines
+* Exercise 7: K-means Clustering and Principal Component Analysis
 * ...
