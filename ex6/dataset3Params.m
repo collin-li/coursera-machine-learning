@@ -20,7 +20,7 @@ for c = 1:length(C_vec)
         sigma = sigma_vec(s); % Set value of sigma
         
         % Train SVM with Gaussian kernel
-        model= svmTrain(X, y, C, @(x1, x2) gaussianKernel(x1, x2, sigma)); 
+        model = svmTrain(X, y, C, @(x1, x2) gaussianKernel(x1, x2, sigma)); 
         
         % Return predictions on cross validation set
         predictions = svmPredict(model, Xval);
